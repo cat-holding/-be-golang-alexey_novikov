@@ -1,7 +1,7 @@
 comment:
   layout: "flags, files"
   behavior: default
-  require_changes: true   # only comment on changes in coverage
+  require_changes: false   # only comment on changes in coverage
   require_base: no       # [yes :: must have a base report to post]
   require_head: no       # [yes :: must have a head report to post]
   branches:               # branch names that can post comment
